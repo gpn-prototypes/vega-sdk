@@ -1,7 +1,6 @@
 {
   "name": "vega-sdk",
   "version": "1.0.1",
-  "repository": "git@github.com:gpn-prototypes/vega-sdk.git",
   "author": "gpn-prototypes",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -17,6 +16,14 @@
     "cz-customizable": {
       "config": "./node_modules/@gpn-prototypes/frontend-configs/git/commitizen.js"
     }
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://npm.pkg.github.com/gpn-prototypes"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com:gpn-prototypes/vega-sdk.git"
   },
   "scripts": {
     "build": "tsc --build tsconfig.json",
