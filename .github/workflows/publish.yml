@@ -34,11 +34,6 @@ jobs:
         git push origin master --follow-tags
       env:
         NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-    - name: Создание gh release
-      uses: gpn-prototypes/vega-actions/generate-gh-release@master
-      with:
-        changelog: ''
-        token: ${{ secrets.ADMIN_TOKEN }}
 
     - name: Публикация на gh registry
       run: |
