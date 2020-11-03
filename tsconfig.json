@@ -6,6 +6,9 @@
   "compilerOptions": {
     "baseUrl": "./",
     "moduleResolution": "node",
+    "outDir": "dist",
+    "declaration": true,
+    "declarationDir": "dist",
     "paths": {
       "@/*": ["./src/*"]
     }
