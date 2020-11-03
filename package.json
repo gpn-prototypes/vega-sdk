@@ -1,0 +1,52 @@
+{
+  "name": "vega-sdk",
+  "version": "0.0.1",
+  "repository": "git@github.com:gpn-prototypes/vega-sdk.git",
+  "author": "gpn-prototypes",
+  "license": "MIT",
+  "engines": {
+    "node": "^12.16.2",
+    "yarn": "^1.22.4"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-customizable"
+    },
+    "cz-customizable": {
+      "config": "./node_modules/@gpn-prototypes/frontend-configs/git/commitizen.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc --build",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "format": "prettier --write '{src,types,scripts}/**/*.{json,{j,t}s{,x},}'",
+    "coverage": "jest --all --coverage",
+    "lint": "npm-run-all lint:*",
+    "lint-fix": "npm-run-all format lint-fix:*",
+    "lint:ts": "eslint '{src,types}/**/*.ts{,x}'",
+    "lint-fix:ts": "eslint '{src,types}/**/*.ts{,x}' --fix"
+  },
+  "devDependencies": {
+    "@gpn-prototypes/frontend-configs": "^1.2.12",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@types/jest": "^26.0.14",
+    "@types/node": "^14.11.8",
+    "babel-loader": "^8.1.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "commitizen": "^4.2.1",
+    "cross-env": "^7.0.2",
+    "cz-customizable": "^6.3.0",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "fetch-mock": "^9.10.7",
+    "husky": "^4.3.0",
+    "jest": "^26.5.3",
+    "lint-staged": "^10.4.0",
+    "node-fetch": "^2.6.1",
+    "npm-run-all": "^4.1.5",
+    "ts-essentials": "^7.0.0"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.2.5"
+  }
+}
