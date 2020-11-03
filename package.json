@@ -1,6 +1,6 @@
 {
   "name": "vega-sdk",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "repository": "git@github.com:gpn-prototypes/vega-sdk.git",
   "author": "gpn-prototypes",
   "main": "dist/index.js",
