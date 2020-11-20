@@ -61,6 +61,6 @@
     "ts-essentials": "^7.0.0"
   },
   "dependencies": {
-    "@apollo/client": "^3.2.5"
+    "@apollo/client": "^3.2.7"
   }
 }
