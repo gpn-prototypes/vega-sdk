@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.3.0](https://github.com/gpn-prototypes/vega-sdk/compare/v1.2.0...v1.3.0) (2020-11-30)
+
+
+### Features
+
+* **packages:** добавил gql ([3a0d2b6](https://github.com/gpn-prototypes/vega-sdk/commit/3a0d2b6dae1cabf149c6ff8fd6b8bcf0377423c5))
+* **packages:** обновил утилиты ([d387e92](https://github.com/gpn-prototypes/vega-sdk/commit/d387e9207ed25c09e00a7083269e8c1ee97aa94a))
+
 ## [1.2.0](https://github.com/gpn-prototypes/vega-sdk/compare/v1.1.1...v1.2.0) (2020-11-30)
 
 
