@@ -35,6 +35,9 @@ jobs:
       env:
         NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+    - name: Сборка пакета
+      run: yarn build
+
     - name: Публикация на gh registry
       run: |
         yarn policies set-version 1.22.4
