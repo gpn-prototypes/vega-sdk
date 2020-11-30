@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](https://github.com/gpn-prototypes/vega-sdk/compare/v1.1.1...v1.2.0) (2020-11-30)
+
+
+### Features
+
+* **build:** поправил деплой ([8e84551](https://github.com/gpn-prototypes/vega-sdk/commit/8e845516014e585ef78383021a77d611b42397a0))
+
 ### [1.1.1](https://github.com/gpn-prototypes/vega-sdk/compare/v1.1.0...v1.1.1) (2020-11-03)
 
 
