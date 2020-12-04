@@ -61,7 +61,7 @@
     "ts-essentials": "^7.0.0"
   },
   "dependencies": {
-    "@apollo/client": "^3.2.5",
+    "@apollo/client": "^3.3.3",
     "graphql": "^15.4.0"
   }
 }
