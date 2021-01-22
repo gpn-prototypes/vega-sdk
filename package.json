@@ -6,7 +6,8 @@
   "types": "dist/index.d.ts",
   "files": [
     "dist",
-    "configs"
+    "configs",
+    "configs/*"
   ],
   "license": "MIT",
   "engines": {
