@@ -3,10 +3,11 @@ const path = require('path');
 
 /* Пример использования:
 
-// .huskyrc.js
+.huskyrc.js
+
 module.exports = {
   hooks: {
-    ...require('@gpn-prototypes/frontend-configs/.huskyrc.js').hooks,
+    ...require('@gpn-prototypes/vega-sdk/configs/.huskyrc.js').hooks,
     'pre-push': 'yarn test',
   },
 };
