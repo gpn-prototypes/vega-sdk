@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.5.0-alpha.4](https://github.com/gpn-prototypes/vega-sdk/compare/v1.5.0-alpha.3...v1.5.0-alpha.4) (2021-01-25)
+
+
+### Bug Fixes
+
+* **global:** почистил зависимости ([9f4e73b](https://github.com/gpn-prototypes/vega-sdk/commit/9f4e73baf25dbe46ee8c4e29e4a832c2a6e13b25))
+
 ## [1.5.0-alpha.3](https://github.com/gpn-prototypes/vega-sdk/compare/v1.5.0-alpha.2...v1.5.0-alpha.3) (2021-01-25)
 
 
