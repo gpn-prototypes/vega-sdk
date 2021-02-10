@@ -1,5 +1,5 @@
 {
-  "extends": "@gpn-prototypes/frontend-configs/tsconfig",
+  "extends": "./configs/tsconfig.json",
   "shouldExtractLiteralValuesFromEnum": true,
   "include": ["src/**/*.ts"],
   "exclude": ["node_modules", "**/dist/**/*"],

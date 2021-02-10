@@ -2,6 +2,41 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.5.0-alpha.4](https://github.com/gpn-prototypes/vega-sdk/compare/v1.5.0-alpha.3...v1.5.0-alpha.4) (2021-01-25)
+
+
+### Bug Fixes
+
+* **global:** почистил зависимости ([9f4e73b](https://github.com/gpn-prototypes/vega-sdk/commit/9f4e73baf25dbe46ee8c4e29e4a832c2a6e13b25))
+
+## [1.5.0-alpha.3](https://github.com/gpn-prototypes/vega-sdk/compare/v1.5.0-alpha.2...v1.5.0-alpha.3) (2021-01-25)
+
+
+### Bug Fixes
+
+* **global:** удалил компоненты из /src ([956ee57](https://github.com/gpn-prototypes/vega-sdk/commit/956ee57ea6d6528ea80918abeb74e606fb103414))
+
+## [1.5.0-alpha.2](https://github.com/gpn-prototypes/vega-sdk/compare/v1.5.0-alpha.1...v1.5.0-alpha.2) (2021-01-22)
+
+
+### Bug Fixes
+
+* **global:** исправил массив files ([94d7571](https://github.com/gpn-prototypes/vega-sdk/commit/94d7571419651b848821f001ef74c7e4582fe735))
+
+## [1.5.0-alpha.1](https://github.com/gpn-prototypes/vega-sdk/compare/v1.5.0-alpha.0...v1.5.0-alpha.1) (2021-01-22)
+
+
+### Bug Fixes
+
+* **global:** исправил название в files ([703a8db](https://github.com/gpn-prototypes/vega-sdk/commit/703a8db8849d76c326f0f3c72c6f151a4fc8f3c1))
+
+## [1.5.0-alpha.0](https://github.com/gpn-prototypes/vega-sdk/compare/v1.4.1...v1.5.0-alpha.0) (2021-01-22)
+
+
+### Features
+
+* **global:** альфа-версия ([5569345](https://github.com/gpn-prototypes/vega-sdk/commit/5569345e9e448203d3d112ec647ef847b4b5f649))
+
 ### [1.4.1](https://github.com/gpn-prototypes/vega-sdk/compare/v1.4.0...v1.4.1) (2020-12-04)
 
 

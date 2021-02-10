@@ -1,4 +1,4 @@
-const base = require('@gpn-prototypes/frontend-configs/babel.config');
+const base = require('./configs/babel.config.js');
 
 module.exports = {
   ...base,
